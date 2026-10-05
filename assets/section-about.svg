@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="56" viewBox="0 0 860 56" role="img" aria-label="About">
+<title>About</title>
+<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#10b981"/></linearGradient><linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></linearGradient></defs>
+<rect x="0.75" y="0.75" width="858.5" height="54.5" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<rect x="14" y="12" width="32" height="32" rx="9" fill="url(#bd)"/>
+<text x="30" y="33" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#0d1117">01</text>
+<text x="62" y="34.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="0.2">About</text>
+<text x="840" y="33" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">// who i am</text>
+<rect x="14" y="51" width="832" height="2" rx="1" fill="url(#ln)" fill-opacity="0.75"/>
+</svg>

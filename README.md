@@ -1,118 +1,140 @@
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://www.gitskins.com/api/readme-reference/hero?username=thefarrukhdev&theme=neon&role=Frontend%20or%20full-stack%20engineer&location=Uzbekistan&v=readme-reference-2" width="100%" alt="Farrukh Jumayev profile banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0369a1,100:8b5cf6&height=210&section=header&text=Farrukh%20Djumayev&fontSize=56&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Frontend%20Engineer%20%26%20Software%20Architect&descSize=20&descAlignY=60&descColor=bae6fd" alt="Farrukh Djumayev - Frontend Engineer & Software Architect" />
+
+<img src="assets/terminal.svg" width="100%" alt="Terminal: farrukh.currentFocus() → Architecting Scalable Web & Telegram Mini Apps · farrukh.education() → School 21 (42 Network) — Systems & Algorithms · farrukh.status() → Available for exciting engineering challenges" />
 
 <br/>
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Orbitron&weight=600&size=26&pause=900&color=7DF9FF&center=true&vCenter=true&width=900&height=66&lines=Frontend%20or%20full-stack%20engineer;Software%20Engineer%20%7C%20React%2C%20Next.js%20%26amp%3B%20TypeScript;Building%20with%20TypeScript%20%C2%B7%20HTML%20%C2%B7%20Python;Always%20coding%20%C2%B7%20learning%20%C2%B7%20shipping%20%F0%9F%9A%80" alt="" /></a>
-
-<br/>
-
-<a href="https://www.farrukh-dev.me"><img src="https://img.shields.io/badge/Portfolio-7B5CFF?style=for-the-badge&amp;labelColor=0d1117" alt="Portfolio" /></a> <a href="https://x.com/FarrukhDjumayev"><img src="https://img.shields.io/badge/X-00C2FF?style=for-the-badge&amp;labelColor=0d1117" alt="X" /></a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Profile_views-7B5CFF?style=for-the-badge&amp;labelColor=0d1117" alt="Profile views" /> <img src="https://img.shields.io/badge/9_followers-00FFA3?style=for-the-badge&amp;labelColor=0d1117" alt="9 followers" />
+<img src="assets/chip-location.svg" height="34" alt="Tashkent, Uzbekistan" />
+<img src="assets/chip-school.svg" height="34" alt="School 21 · 42 Network" />
+<a href="https://www.farrukh-dev.me"><img src="assets/chip-portfolio.svg" height="34" alt="farrukh-dev.me" /></a>
+<img src="assets/chip-status.svg" height="34" alt="Open to new challenges" />
 
 </div>
 
-<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=thefarrukhdev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+<br/>
 
-## ⚡ whoami
-
-```typescript
-const thefarrukhdev: Developer = {
-  name:      "Farrukh Jumayev",
-  role:      "Frontend or full-stack engineer",
-  location:  "Uzbekistan",
-  currently: "building in public",
-  stack:     ["TypeScript", "HTML", "Python", "CSS", "PLpgSQL", "Shell"],
-  mantra:    "Make useful things, then make them delightful 🚀",
-};
-```
-
-> Software Engineer | React, Next.js &amp; TypeScript
-> 
-> **Collaborations welcome when they are meaningful 🤝**
-
-<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=thefarrukhdev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
-
-## ⚔️ Tech Arsenal
+<!-- ═══════════════════════════ 01 ABOUT ═══════════════════════════ -->
+<img src="assets/section-about.svg" width="100%" alt="01 · About" />
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=typescript%2Chtml%2Cpython%2Ccss%2Cbash%2Cjavascript%2Cdocker&perline=8&theme=dark" alt="Tech stack" />
+<br/>
 
-<br/><br/>
+### I build interfaces that feel instant and stay maintainable.
 
-**🧠 AI / ML &nbsp;·&nbsp; ⚙️ Automation**
+**React · Next.js · TypeScript** is home turf, from booking platforms and career marketplaces<br/>
+to fintech Telegram Mini Apps. I care about **scalable component architecture**,<br/>
+design systems that hold up under growth, and UI that looks as good as it performs.
 
-<img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&amp;labelColor=0d1117" alt="TypeScript" /> <img src="https://img.shields.io/badge/HTML-e34c26?style=for-the-badge&amp;labelColor=0d1117" alt="HTML" /> <img src="https://img.shields.io/badge/Python-3572A5?style=for-the-badge&amp;labelColor=0d1117" alt="Python" /> <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&amp;labelColor=0d1117" alt="CSS" /> <img src="https://img.shields.io/badge/PLpgSQL-336790?style=for-the-badge&amp;labelColor=0d1117" alt="PLpgSQL" /> <img src="https://img.shields.io/badge/Shell-89e051?style=for-the-badge&amp;labelColor=0d1117" alt="Shell" /> <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=for-the-badge&amp;labelColor=0d1117" alt="JavaScript" /> <img src="https://img.shields.io/badge/Dockerfile-384d54?style=for-the-badge&amp;labelColor=0d1117" alt="Dockerfile" />
+Alongside shipping product, I'm going deep on fundamentals at **School 21 (42 Network)**:<br/>
+**C/C++ · algorithms · system programming**, learned peer-to-peer. That systems mindset<br/>
+is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and Python**.
+
+⚡ Performance-minded &nbsp;·&nbsp; 🧩 Reusable by design &nbsp;·&nbsp; 🛡️ Type-safe by default &nbsp;·&nbsp; 🏗️ Architecture-first
 
 </div>
 
-<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=thefarrukhdev&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+<br/>
 
-## 🌌 Featured Projects
+<!-- ═══════════════════════════ 02 SKILLS ═══════════════════════════ -->
+<img src="assets/section-stack.svg" width="100%" alt="02 · Skill Ecosystem" />
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**safaar**
-
-🏨 Safaar — Modern accommodation and travel booking platform (Monorepo built with Next.js &amp; NestJS)
-
-`TypeScript` · `4 stars`
-
-<a href="https://github.com/thefarrukhdev/safaar"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&amp;labelColor=0d1117" alt="Code" /></a>
-
-</td>
-<td width="50%" valign="top">
-
-**agychat**
-
-A beautiful, dependency-free CLI tool to view, manage, and seamlessly resume Google Antigravity (AGY) sessions.
-
-`Python` · `2 stars`
-
-<a href="https://github.com/thefarrukhdev/agychat"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&amp;labelColor=0d1117" alt="Code" /></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**kokand_university**
-
-Kokand University Web Application - Modern university web portal built with React and TypeScript.
-
-`TypeScript` · `3 stars`
-
-<a href="https://github.com/thefarrukhdev/kokand_university"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&amp;labelColor=0d1117" alt="Code" /></a>
-
-</td>
-<td width="50%" valign="top">
-
-**ReactDev**
-
-React komponetalar 
-
-`TypeScript` · `3 stars`
-
-<a href="https://github.com/thefarrukhdev/ReactDev"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&amp;labelColor=0d1117" alt="Code" /></a>
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>More work samples</b> &nbsp;<i>(click to expand)</i></summary>
+<div align="center">
 
 <br/>
 
-- **p2p** — Peer-to-Peer file sharing or communications application. · <a href="https://github.com/thefarrukhdev/p2p"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&amp;labelColor=0d1117" alt="Code" /></a>
-- **portfolio** — Personal portfolio website highlighting software engineering projects and skills. · <a href="https://github.com/thefarrukhdev/portfolio"><img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&amp;labelColor=0d1117" alt="Code" /></a>
+<img src="assets/label-frontend.svg" height="30" alt="Frontend & UI Engineering" />
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,vite,html,css,tailwind,redux&theme=dark&perline=9" alt="React, Next.js, TypeScript, JavaScript, Vite, HTML5, CSS3, Tailwind CSS, Redux" />
 
-</details>
+<br/><br/>
 
+<img src="assets/label-backend.svg" height="30" alt="Backend & Systems" />
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=python,nodejs,nestjs,postgres,redis,c,cpp&theme=dark&perline=7" alt="Python, Node.js, NestJS, PostgreSQL, Redis, C, C++" />
+
+<br/><br/>
+
+<img src="assets/label-devops.svg" height="30" alt="DevOps & Tooling" />
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=git,github,vercel,docker,linux,nginx,npm,figma&theme=dark&perline=8" alt="Git, GitHub, Vercel, Docker, Linux, Nginx, npm, Figma" />
+
+<br/><br/>
+
+<img src="assets/label-paradigms.svg" height="30" alt="Architecture & Paradigms" />
+<br/><br/>
+<img src="assets/pills.svg" width="100%" alt="Monorepos, Design Systems, Glassmorphism, Component Architecture, REST APIs, Responsive UI, Zustand, TanStack Query, Redux Toolkit, ShadCN UI, Radix UI, Axios, ITCSS" />
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════ 03 METRICS ═══════════════════════════ -->
+<img src="assets/section-metrics.svg" width="100%" alt="03 · Live Metrics" />
+
+<div align="center">
+
+<br/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=thefarrukhdev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=495&custom_title=Engineering%20Metrics&title_color=38bdf8&icon_color=8b5cf6&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=thefarrukhdev&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=38BDF8&sideNums=FFFFFF&sideLabels=8B5CF6&dates=8B949E&border_radius=4.5" alt="GitHub Streak" />
+
+<img width="98%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thefarrukhdev&layout=compact&langs_count=8&card_width=1000&theme=tokyonight&hide_border=true&custom_title=Top%20Languages&title_color=38bdf8&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="Contribution snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════ 04 PROJECTS ═══════════════════════════ -->
+<img src="assets/section-projects.svg" width="100%" alt="04 · Featured Projects" />
+
+<div align="center">
+
+<br/>
+
+<a href="https://github.com/thefarrukhdev/safaar"><img width="49%" src="assets/card-safaar.svg" alt="Safaar Platform · Full-Stack Hotel & Travel Booking Monorepo · Next.js 14, NestJS, TypeScript, Tailwind CSS, PostgreSQL" /></a>
+<a href="https://careerhub.21-school.uz"><img width="49%" src="assets/card-careerhub.svg" alt="School 21 CareerHub · Talent Marketplace & Student Career Platform · Next.js, React, TypeScript, Tailwind CSS, ShadCN UI" /></a>
+
+<img width="49%" src="assets/card-paymex.svg" alt="PAYMEX · Telegram Mini App · React, Telegram WebApp API, ITCSS, Web3 / Payment Flow" />
+<a href="https://kualumni.uz"><img width="49%" src="assets/card-kokand.svg" alt="Kokand University Web Platform · University Portal & Alumni Community · React, TypeScript, Vite, Tailwind CSS, ShadCN UI, Radix UI" /></a>
+
+<a href="https://github.com/thefarrukhdev/agychat"><img width="98%" src="assets/card-agychat.svg" alt="agychat · Developer CLI Tool for Antigravity Session Management · Python, CLI Architecture, Systems Tooling" /></a>
+
+<sub>Source: <a href="https://github.com/thefarrukhdev/kokand_university">kokand_university</a> · <a href="https://github.com/thefarrukhdev/safaar">safaar</a> · <a href="https://github.com/thefarrukhdev/agychat">agychat</a></sub>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════ 05 CONNECT ═══════════════════════════ -->
+<img src="assets/section-connect.svg" width="100%" alt="05 · Connect" />
+
+<div align="center">
+
+<br/>
+
+<a href="https://www.farrukh-dev.me"><img src="assets/social-portfolio.svg" height="52" alt="Portfolio · farrukh-dev.me" /></a>
+<a href="https://t.me/Farrukh_Djumayev"><img src="assets/social-telegram.svg" height="52" alt="Telegram · @Farrukh_Djumayev" /></a>
+<a href="https://x.com/FarrukhDjumayev"><img src="assets/social-x.svg" height="52" alt="X · @FarrukhDjumayev" /></a>
+
+<a href="https://instagram.com/farrukh.djumayev"><img src="assets/social-instagram.svg" height="52" alt="Instagram · farrukh.djumayev" /></a>
+<a href="mailto:farrukh.front.dev@gmail.com"><img src="assets/social-email.svg" height="52" alt="Email · farrukh.front.dev@gmail.com" /></a>
+
+<br/><br/>
+
+<sub>Built in Tashkent · shipped with React, TypeScript and too much coffee.</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:8b5cf6,100:38bdf8&height=130&section=footer" alt="" />
+
+</div>
