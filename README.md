@@ -72,62 +72,6 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 
 <br/>
 
-<!-- ═══════════════════════════ 03 METRICS ═══════════════════════════ -->
-<img src="assets/section-metrics.svg" width="100%" alt="03 · Live Metrics" />
-
-<div align="center">
-
-<br/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=thefarrukhdev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=495&custom_title=Engineering%20Metrics&title_color=38bdf8&icon_color=8b5cf6&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=thefarrukhdev&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=38BDF8&sideNums=FFFFFF&sideLabels=8B5CF6&dates=8B949E&border_radius=4.5" alt="GitHub Streak" />
-
-<img width="98%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thefarrukhdev&layout=compact&langs_count=8&card_width=1000&theme=tokyonight&hide_border=true&custom_title=Top%20Languages&title_color=38bdf8&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Contribution snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════ 04 PROJECTS ═══════════════════════════ -->
-<img src="assets/section-projects.svg" width="100%" alt="04 · Featured Projects" />
-
-<div align="center">
-
-<br/>
-
-<a href="https://github.com/thefarrukhdev/safaar"><img width="49%" src="assets/card-safaar.svg" alt="Safaar Platform · Full-Stack Hotel & Travel Booking Monorepo · Next.js 14, NestJS, TypeScript, Tailwind CSS, PostgreSQL" /></a>
-<a href="https://careerhub.21-school.uz"><img width="49%" src="assets/card-careerhub.svg" alt="School 21 CareerHub · Talent Marketplace & Student Career Platform · Next.js, React, TypeScript, Tailwind CSS, ShadCN UI" /></a>
-
-<img width="49%" src="assets/card-paymex.svg" alt="PAYMEX · Telegram Mini App · React, Telegram WebApp API, ITCSS, Web3 / Payment Flow" />
-<a href="https://kualumni.uz"><img width="49%" src="assets/card-kokand.svg" alt="Kokand University Web Platform · University Portal & Alumni Community · React, TypeScript, Vite, Tailwind CSS, ShadCN UI, Radix UI" /></a>
-
-<a href="https://github.com/thefarrukhdev/agychat"><img width="98%" src="assets/card-agychat.svg" alt="agychat · Developer CLI Tool for Antigravity Session Management · Python, CLI Architecture, Systems Tooling" /></a>
-
-<sub>Source: <a href="https://github.com/thefarrukhdev/kokand_university">kokand_university</a> · <a href="https://github.com/thefarrukhdev/safaar">safaar</a> · <a href="https://github.com/thefarrukhdev/agychat">agychat</a></sub>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════ 05 CONNECT ═══════════════════════════ -->
-<img src="assets/section-connect.svg" width="100%" alt="05 · Connect" />
-
-<div align="center">
-
-<br/>
-
-<a href="https://www.farrukh-dev.me"><img src="assets/social-portfolio.svg" height="52" alt="Portfolio · farrukh-dev.me" /></a>
-<a href="https://t.me/Farrukh_Djumayev"><img src="assets/social-telegram.svg" height="52" alt="Telegram · @Farrukh_Djumayev" /></a>
-<a href="https://x.com/FarrukhDjumayev"><img src="assets/social-x.svg" height="52" alt="X · @FarrukhDjumayev" /></a>
-
 <a href="https://instagram.com/farrukh.djumayev"><img src="assets/social-instagram.svg" height="52" alt="Instagram · farrukh.djumayev" /></a>
 <a href="mailto:farrukh.front.dev@gmail.com"><img src="assets/social-email.svg" height="52" alt="Email · farrukh.front.dev@gmail.com" /></a>
 
