@@ -73,11 +73,17 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 <br/>
 
 
+<!-- ═══════════════════════════ 03 METRICS ═══════════════════════════ -->
+<img src="assets/section-metrics.svg" width="100%" alt="03 · Live Metrics" />
+
 <div align="center">
 
 <br/>
 
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=thefarrukhdev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=495&custom_title=Engineering%20Metrics&title_color=38bdf8&icon_color=8b5cf6&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=thefarrukhdev&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=38BDF8&sideNums=FFFFFF&sideLabels=8B5CF6&dates=8B949E&border_radius=4.5" alt="GitHub Streak" />
 
+<img width="98%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thefarrukhdev&layout=compact&langs_count=8&card_width=1000&theme=tokyonight&hide_border=true&custom_title=Top%20Languages&title_color=38bdf8&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
 
 <br/><br/>
 
