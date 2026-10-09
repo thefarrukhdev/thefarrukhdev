@@ -1,7 +1,7 @@
 <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0369a1,100:8b5cf6&height=210&section=header&text=Farrukh%20Djumayev&fontSize=56&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Frontend%20Engineer%20%26%20Software%20Architect&descSize=20&descAlignY=60&descColor=bae6fd" alt="Farrukh Djumayev - Frontend Engineer & Software Architect" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,45:0369a1,100:8b5cf6&amp;height=210&amp;section=header&amp;text=Farrukh%20Djumayev&amp;fontSize=56&amp;fontColor=ffffff&amp;fontAlignY=38&amp;animation=fadeIn&amp;desc=Frontend%20Engineer%20and%20Software%20Architect&amp;descSize=20&amp;descAlignY=60&amp;descColor=bae6fd&amp;v=2" alt="Farrukh Djumayev - Frontend Engineer &amp; Software Architect" />
 
 <img src="assets/terminal.svg" width="100%" alt="Terminal: farrukh.currentFocus() → Architecting Scalable Web & Telegram Mini Apps · farrukh.education() → School 21 (42 Network) — Systems & Algorithms · farrukh.status() → Available for exciting engineering challenges" />
 
@@ -136,6 +136,6 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 
 <sub>Built in Tashkent · shipped with React, TypeScript and too much coffee.</sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:8b5cf6,100:38bdf8&height=130&section=footer" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,45:8b5cf6,100:38bdf8&amp;height=130&amp;section=footer&amp;v=2" alt="" />
 
 </div>
