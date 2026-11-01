@@ -196,7 +196,6 @@ def card(p, W, H, wide=False):
         f'<rect x="24" y="24" width="40" height="40" rx="11" fill="url(#tile{cid})"/>'
         f'<g transform="translate(24,24)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{ICONS[p["icon"]]}</g>\n'
     )
-    s += status_pill(W - 24, 33, p["status"], p["status_color"]) + "\n"
 
     if not wide:
         s += f'<text x="24" y="98" font-family="{SANS}" font-size="19" font-weight="700" fill="#ffffff">{esc(p["title"])}</text>\n'
