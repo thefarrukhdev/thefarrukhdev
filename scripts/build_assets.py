@@ -64,13 +64,13 @@ GRAD_DEFS = (
 # ───────────────────────────── tech pill colours ─────────────────────────────
 PILL_COLORS = {
     # frontend → cyan
-    "Next.js": CYAN, "Next.js 14": CYAN, "React": CYAN, "TypeScript": CYAN, "Tailwind CSS": CYAN,
-    "Vite": CYAN, "ShadCN UI": CYAN, "Radix UI": CYAN, "ITCSS": CYAN,
+    "Next.js": CYAN, "React": CYAN, "TypeScript": CYAN, "Tailwind CSS": CYAN,
+    "ShadCN UI": CYAN,
     # backend / systems → violet
-    "NestJS": VIOLET, "PostgreSQL": VIOLET, "Python": VIOLET, "CLI Architecture": VIOLET,
-    "Systems Tooling": VIOLET,
+    "NestJS": VIOLET, "PostgreSQL": VIOLET, "Python": VIOLET, "CLI Tooling": VIOLET,
+    "Rich CLI": VIOLET,
     # platform / integrations → emerald
-    "Telegram WebApp API": EMERALD, "Web3 / Payment Flow": EMERALD, "Glassmorphism": EMERALD,
+    "B2B Logistics": EMERALD, "REST API": EMERALD,
 }
 
 
@@ -106,6 +106,8 @@ ICONS = {
            '<circle cx="20" cy="17.2" r="3.2"/>',
     "briefcase": '<rect x="10" y="14" width="20" height="14" rx="2.5"/>'
                  '<path d="M16 14v-1.5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2V14M10 20.5h20"/>',
+    "building": '<rect x="11" y="11" width="18" height="18" rx="3"/>'
+                '<path d="M15 15h2v2h-2zM21 15h2v2h-2zM15 21h2v2h-2zM21 21h2v2h-2z"/>',
     "exchange": '<circle cx="20" cy="20" r="10"/>'
                 '<path d="M14.5 17.5h11m-3-3 3 3-3 3M25.5 23.5h-11m3-3-3 3 3 3"/>',
     "cap": '<path d="M20 11 31 17 20 23 9 17z"/><path d="M14 20v5c0 1.7 2.7 3.5 6 3.5s6-1.8 6-3.5v-5M31 17v7"/>',
@@ -116,48 +118,48 @@ ICONS = {
 PROJECTS = [
     dict(
         file="card-safaar.svg", icon="pin", accent=(CYAN, "#3b82f6"),
-        title="Safaar Platform", sub="Full-Stack Hotel & Travel Booking Monorepo",
+        title="Safaar Platform", sub="Hotel & Travel Booking Monorepo",
         status="In Development", status_color=CYAN,
-        desc=["Booking hotels and trips is fragmented and slow;",
-              "one scalable monorepo unifies search, booking and ops."],
-        tags=["Next.js 14", "NestJS", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+        desc=["Scalable full-stack monorepo for hotel discovery,",
+              "instant booking workflows, and host management."],
+        tags=["Next.js", "NestJS", "TypeScript", "PostgreSQL", "Tailwind CSS"],
         link="github.com/thefarrukhdev/safaar",
     ),
     dict(
         file="card-careerhub.svg", icon="briefcase", accent=(VIOLET, CYAN),
         title="School 21 CareerHub", sub="Talent Marketplace & Student Career Platform",
-        status="Production", status_color=EMERALD,
-        desc=["Students and employers lacked one place to connect;",
-              "portfolios, vacancy filters and application tracking."],
-        tags=["Next.js", "React", "TypeScript", "Tailwind CSS", "ShadCN UI"],
+        status="Live", status_color=EMERALD,
+        desc=["Career marketplace connecting tech students with employers,",
+              "featuring verified skill portfolios and vacancy tracking."],
+        tags=["Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI"],
         link="careerhub.21-school.uz",
     ),
     dict(
-        file="card-paymex.svg", icon="exchange", accent=(EMERALD, CYAN),
-        title="PAYMEX", sub="Telegram Mini App · Fintech & Currency Exchange",
-        status="Demo", status_color="#f59e0b",
-        desc=["Currency exchange and cross-border payments are clunky;",
-              "a mobile-first, glassmorphism flow inside Telegram."],
-        tags=["React", "Telegram WebApp API", "ITCSS", "Web3 / Payment Flow"],
-        link="Telegram Mini App · demo build",
+        file="card-bunkerstroy.svg", icon="building", accent=(EMERALD, CYAN),
+        title="BunkerStroy", sub="B2B Building Materials & Logistics Marketplace",
+        status="In Development", status_color=CYAN,
+        desc=["High-volume B2B marketplace for construction materials,",
+              "integrated bidding systems, and heavy freight dispatch."],
+        tags=["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+        link="github.com/thefarrukhdev/bunkerstroy",
     ),
     dict(
         file="card-kokand.svg", icon="cap", accent=(CYAN, VIOLET),
-        title="Kokand University Platform", sub="University Portal & Alumni Community Platform",
-        status="Live Platform", status_color=EMERALD,
-        desc=["Admissions, programs and alumni were scattered;",
-              "one modern portal for applicants, students and graduates."],
-        tags=["React", "TypeScript", "Vite", "Tailwind CSS", "ShadCN UI", "Radix UI"],
+        title="Kokand University Portal", sub="Campus Services & Alumni Community Platform",
+        status="Live", status_color=EMERALD,
+        desc=["Unified digital platform serving university applicants,",
+              "active students, faculty records, and global alumni."],
+        tags=["React", "TypeScript", "Tailwind CSS", "ShadCN UI"],
         link="kualumni.uz",
     ),
 ]
 WIDE_PROJECT = dict(
     file="card-agychat.svg", icon="terminal", accent=(EMERALD, VIOLET),
-    title="agychat", sub="Developer CLI Tool for Antigravity Session Management",
-    status="Active", status_color=EMERALD,
-    desc=["Antigravity (AGY) sessions are hard to track from the terminal;",
-          "a Python CLI to monitor, inspect and manage them in one place."],
-    tags=["Python", "CLI Architecture", "Systems Tooling"],
+    title="agychat", sub="Terminal Session Manager for Google Antigravity",
+    status="Open Source", status_color=EMERALD,
+    desc=["Lightweight, dependency-free Python CLI to monitor, inspect,",
+          "and seamlessly resume Google Antigravity developer sessions."],
+    tags=["Python", "CLI Tooling", "Rich CLI"],
     link="github.com/thefarrukhdev/agychat",
 )
 

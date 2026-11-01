@@ -104,15 +104,15 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 
 <br/>
 
-<a href="https://github.com/thefarrukhdev/safaar"><img width="49%" src="assets/card-safaar.svg" alt="Safaar Platform · Full-Stack Hotel & Travel Booking Monorepo · Next.js 14, NestJS, TypeScript, Tailwind CSS, PostgreSQL" /></a>
-<a href="https://careerhub.21-school.uz"><img width="49%" src="assets/card-careerhub.svg" alt="School 21 CareerHub · Talent Marketplace & Student Career Platform · Next.js, React, TypeScript, Tailwind CSS, ShadCN UI" /></a>
+<a href="https://github.com/thefarrukhdev/safaar"><img width="49%" src="assets/card-safaar.svg" alt="Safaar Platform · Hotel & Travel Booking Monorepo · Next.js, NestJS, TypeScript, PostgreSQL, Tailwind CSS" /></a>
+<a href="https://careerhub.21-school.uz"><img width="49%" src="assets/card-careerhub.svg" alt="School 21 CareerHub · Talent Marketplace & Student Career Platform · Next.js, TypeScript, Tailwind CSS, ShadCN UI" /></a>
 
-<img width="49%" src="assets/card-paymex.svg" alt="PAYMEX · Telegram Mini App · React, Telegram WebApp API, ITCSS, Web3 / Payment Flow" />
-<a href="https://kualumni.uz"><img width="49%" src="assets/card-kokand.svg" alt="Kokand University Web Platform · University Portal & Alumni Community · React, TypeScript, Vite, Tailwind CSS, ShadCN UI, Radix UI" /></a>
+<a href="https://github.com/thefarrukhdev/bunkerstroy"><img width="49%" src="assets/card-bunkerstroy.svg" alt="BunkerStroy · B2B Building Materials & Logistics Marketplace · Next.js, TypeScript, Tailwind CSS, PostgreSQL" /></a>
+<a href="https://kualumni.uz"><img width="49%" src="assets/card-kokand.svg" alt="Kokand University Portal · Campus Services & Alumni Community Platform · React, TypeScript, Tailwind CSS, ShadCN UI" /></a>
 
-<a href="https://github.com/thefarrukhdev/agychat"><img width="98%" src="assets/card-agychat.svg" alt="agychat · Developer CLI Tool for Antigravity Session Management · Python, CLI Architecture, Systems Tooling" /></a>
+<a href="https://github.com/thefarrukhdev/agychat"><img width="98%" src="assets/card-agychat.svg" alt="agychat · Terminal Session Manager for Google Antigravity · Python, CLI Tooling, Rich CLI" /></a>
 
-<sub>Source: <a href="https://github.com/thefarrukhdev/kokand_university">kokand_university</a> · <a href="https://github.com/thefarrukhdev/safaar">safaar</a> · <a href="https://github.com/thefarrukhdev/agychat">agychat</a></sub>
+<sub>Source: <a href="https://github.com/thefarrukhdev/safaar">safaar</a> · <a href="https://github.com/thefarrukhdev/bunkerstroy">bunkerstroy</a> · <a href="https://github.com/thefarrukhdev/kokand_university">kokand_university</a> · <a href="https://github.com/thefarrukhdev/agychat">agychat</a></sub>
 
 </div>
 
