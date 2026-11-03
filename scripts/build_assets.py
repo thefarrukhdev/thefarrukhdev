@@ -136,12 +136,12 @@ PROJECTS = [
     ),
     dict(
         file="card-bunkerstroy.svg", icon="building", accent=(EMERALD, CYAN),
-        title="BunkerStroy", sub="B2B Building Materials & Logistics Marketplace",
+        title="BunkerStroy", sub="B2B Building Materials Marketplace",
         status="In Development", status_color=CYAN,
-        desc=["High-volume B2B marketplace for construction materials,",
-              "integrated bidding systems, and heavy freight dispatch."],
+        desc=["B2B marketplace for construction materials & order pipelines,",
+              "multi-portal workflows (Admin, Seller, Client) & inventory."],
         tags=["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
-        link="github.com/thefarrukhdev/bunkerstroy",
+        link="bunkerstroy.uz",
     ),
     dict(
         file="card-kokand.svg", icon="cap", accent=(CYAN, VIOLET),
@@ -326,16 +326,16 @@ def chip(file, text, color, dot_pulse=False):
 def build_chips():
     chip("chip-location.svg", "Tashkent, Uzbekistan", CYAN)
     chip("chip-school.svg", "School 21 · 42 Network", VIOLET)
-    chip("chip-portfolio.svg", "farrukh-dev.me", "#f59e0b")
+    chip("chip-portfolio.svg", "thefarrukhdev.vercel.app", "#f59e0b")
     chip("chip-status.svg", "Open to new challenges", EMERALD, dot_pulse=True)
 
 
 SOCIALS = [
-    ("social-portfolio.svg", "PORTFOLIO", "farrukh-dev.me", "P", CYAN),
+    ("social-portfolio.svg", "PORTFOLIO", "thefarrukhdev.vercel.app", "P", CYAN),
     ("social-telegram.svg", "TELEGRAM", "@Farrukh_Djumayev", "T", "#26a5e4"),
     ("social-x.svg", "X / TWITTER", "@FarrukhDjumayev", "X", "#e6edf3"),
     ("social-instagram.svg", "INSTAGRAM", "farrukh.djumayev", "I", "#e4405f"),
-    ("social-email.svg", "EMAIL", "farrukh.front.dev@gmail.com", "@", EMERALD),
+    ("social-email.svg", "EMAIL", "the.farrukh.dev@gmail.com", "@", EMERALD),
 ]
 
 
@@ -478,7 +478,7 @@ def terminal():
           f'<tspan fill="{EMERALD}">farrukh@tashkent</tspan> <tspan fill="{CYAN}">~/portfolio</tspan> <tspan fill="{MUTED}">%</tspan> <tspan fill="{TEXT}">whoami</tspan></text>\n')
     s += (f'<text x="{x0}" y="120" font-family="{MONO}" font-size="{FS+1}" font-weight="700">'
           f'<tspan fill="url(#nm)">Farrukh Djumayev</tspan><tspan fill="{MUTED}" font-weight="400"> — </tspan>'
-          f'<tspan fill="{TEXT}">Frontend Engineer &amp; Software Architect</tspan></text>\n')
+          f'<tspan fill="{TEXT}">Frontend Engineer — React, Next.js &amp; TypeScript</tspan></text>\n')
     s += (f'<text x="{x0}" y="152" font-family="{MONO}" font-size="12.5" fill="{MUTED}">'
           f'# React · Next.js · TypeScript · Scalable Component Architecture</text>\n')
     s += (f'<text x="{x0}" y="172" font-family="{MONO}" font-size="12.5" fill="{MUTED}">'
@@ -491,7 +491,7 @@ def terminal():
     s += f'<line x1="{wx}" y1="{wy+wh-28}" x2="{wx+ww}" y2="{wy+wh-28}" stroke="{BORDER}"/></g>\n'
     s += (f'<circle cx="{wx+22}" cy="{wy+wh-14}" r="3.5" fill="{EMERALD}"/>'
           f'<text x="{wx+34}" y="{wy+wh-10}" font-family="{MONO}" font-size="11" fill="{MUTED}">online · Tashkent, UZ · UTC+5</text>'
-          f'<text x="{wx+ww-22}" y="{wy+wh-10}" text-anchor="end" font-family="{MONO}" font-size="11" fill="{CYAN}">farrukh-dev.me</text>\n')
+          f'<text x="{wx+ww-22}" y="{wy+wh-10}" text-anchor="end" font-family="{MONO}" font-size="11" fill="{CYAN}">thefarrukhdev.vercel.app</text>\n')
     out = "terminal.preview.svg" if STATIC_PREVIEW else "terminal.svg"
     write(out, s + "</svg>\n")
 

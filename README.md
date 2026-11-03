@@ -1,7 +1,7 @@
 <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,45:0369a1,100:8b5cf6&amp;height=210&amp;section=header&amp;text=Farrukh%20Djumayev&amp;fontSize=56&amp;fontColor=ffffff&amp;fontAlignY=38&amp;animation=fadeIn&amp;desc=Frontend%20Engineer%20and%20Software%20Architect&amp;descSize=20&amp;descAlignY=60&amp;descColor=bae6fd&amp;v=2" alt="Farrukh Djumayev - Frontend Engineer &amp; Software Architect" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,45:0369a1,100:8b5cf6&amp;height=210&amp;section=header&amp;text=Farrukh%20Djumayev&amp;fontSize=56&amp;fontColor=ffffff&amp;fontAlignY=38&amp;animation=fadeIn&amp;desc=Frontend%20Engineer%20%E2%80%94%20React%2C%20Next.js%20%26%20TypeScript&amp;descSize=20&amp;descAlignY=60&amp;descColor=bae6fd&amp;v=2" alt="Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript" />
 
 <img src="assets/terminal.svg" width="100%" alt="Terminal: farrukh.currentFocus() → Architecting Scalable Web & Telegram Mini Apps · farrukh.education() → School 21 (42 Network) — Systems & Algorithms · farrukh.status() → Available for exciting engineering challenges" />
 
@@ -9,7 +9,7 @@
 
 <img src="assets/chip-location.svg" height="34" alt="Tashkent, Uzbekistan" />
 <img src="assets/chip-school.svg" height="34" alt="School 21 · 42 Network" />
-<a href="https://www.farrukh-dev.me"><img src="assets/chip-portfolio.svg" height="34" alt="farrukh-dev.me" /></a>
+<a href="https://thefarrukhdev.vercel.app"><img src="assets/chip-portfolio.svg" height="34" alt="thefarrukhdev.vercel.app" /></a>
 <img src="assets/chip-status.svg" height="34" alt="Open to new challenges" />
 
 </div>
@@ -23,17 +23,13 @@
 
 <br/>
 
-### I build interfaces that feel instant and stay maintainable.
+### Frontend Engineer — React · Next.js · TypeScript
 
-**React · Next.js · TypeScript** is home turf, from booking platforms and career marketplaces<br/>
-to fintech Telegram Mini Apps. I care about **scalable component architecture**,<br/>
-design systems that hold up under growth, and UI that looks as good as it performs.
+I build responsive, accessible, and high-performance web applications with clean component architecture and strict type safety.<br/>
+Experienced in shipping production platforms including institutional career portals, booking engines, and B2B marketplaces.<br/>
+Backed by strong computer science and systems foundations (C, algorithms, memory management, Unix) honed through **School 21 (42 Network)**.
 
-Alongside shipping product, I'm going deep on fundamentals at **School 21 (42 Network)**:<br/>
-**C/C++ · algorithms · system programming**, learned peer-to-peer. That systems mindset<br/>
-is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and Python**.
-
-⚡ Performance-minded &nbsp;·&nbsp; 🧩 Reusable by design &nbsp;·&nbsp; 🛡️ Type-safe by default &nbsp;·&nbsp; 🏗️ Architecture-first
+⚡ High Performance &nbsp;·&nbsp; 🧩 Scalable Architecture &nbsp;·&nbsp; 🛡️ Strict Type-Safety &nbsp;·&nbsp; 🎯 Core Web Vitals (95+)
 
 </div>
 
@@ -72,7 +68,6 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 
 <br/>
 
-
 <!-- ═══════════════════════════ 03 METRICS ═══════════════════════════ -->
 <img src="assets/section-metrics.svg" width="100%" alt="03 · Live Metrics" />
 
@@ -80,17 +75,14 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 
 <br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=thefarrukhdev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=495&custom_title=Engineering%20Metrics&title_color=38bdf8&icon_color=8b5cf6&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=thefarrukhdev&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=38BDF8&sideNums=FFFFFF&sideLabels=8B5CF6&dates=8B949E&border_radius=4.5" alt="GitHub Streak" />
-
-<img width="98%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thefarrukhdev&layout=compact&langs_count=8&card_width=1000&theme=tokyonight&hide_border=true&custom_title=Top%20Languages&title_color=38bdf8&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+<img width="98%" src="https://streak-stats.demolab.com/?user=thefarrukhdev&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=38BDF8&sideNums=FFFFFF&sideLabels=8B5CF6&dates=8B949E&border_radius=10" alt="GitHub Streak" />
 
 <br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Contribution snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake-dark.svg" />
+  <img width="100%" alt="Contribution snake eating GitHub contribution graph" src="https://raw.githubusercontent.com/thefarrukhdev/thefarrukhdev/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
@@ -107,12 +99,20 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 <a href="https://github.com/thefarrukhdev/safaar"><img width="49%" src="assets/card-safaar.svg" alt="Safaar Platform · Hotel & Travel Booking Monorepo · Next.js, NestJS, TypeScript, PostgreSQL, Tailwind CSS" /></a>
 <a href="https://careerhub.21-school.uz"><img width="49%" src="assets/card-careerhub.svg" alt="School 21 CareerHub · Talent Marketplace & Student Career Platform · Next.js, TypeScript, Tailwind CSS, ShadCN UI" /></a>
 
-<a href="https://github.com/thefarrukhdev/bunkerstroy"><img width="49%" src="assets/card-bunkerstroy.svg" alt="BunkerStroy · B2B Building Materials & Logistics Marketplace · Next.js, TypeScript, Tailwind CSS, PostgreSQL" /></a>
+<a href="https://bunkerstroy.uz"><img width="49%" src="assets/card-bunkerstroy.svg" alt="BunkerStroy · B2B Building Materials Marketplace · Next.js, TypeScript, Tailwind CSS, PostgreSQL" /></a>
 <a href="https://kualumni.uz"><img width="49%" src="assets/card-kokand.svg" alt="Kokand University Portal · Campus Services & Alumni Community Platform · React, TypeScript, Tailwind CSS, ShadCN UI" /></a>
 
 <a href="https://github.com/thefarrukhdev/agychat"><img width="98%" src="assets/card-agychat.svg" alt="agychat · Terminal Session Manager for Google Antigravity · Python, CLI Tooling, Rich CLI" /></a>
 
-<sub>Source: <a href="https://github.com/thefarrukhdev/safaar">safaar</a> · <a href="https://github.com/thefarrukhdev/bunkerstroy">bunkerstroy</a> · <a href="https://github.com/thefarrukhdev/kokand_university">kokand_university</a> · <a href="https://github.com/thefarrukhdev/agychat">agychat</a></sub>
+<br/>
+
+| Project | Description | Stack | Links |
+| :--- | :--- | :--- | :--- |
+| **School 21 CareerHub** | Institutional talent marketplace connecting 500+ tech engineers with employers | `Next.js 15` · `TypeScript` · `Tailwind CSS` · `shadcn/ui` | [Live](https://careerhub.21-school.uz) |
+| **Safaar Platform** | Hotel accommodation & reservation monorepo | `Next.js 15` · `NestJS` · `TypeScript` · `PostgreSQL` | [Demo](https://safaar.uz) · [Code](https://github.com/thefarrukhdev/safaar) |
+| **BunkerStroy Marketplace** | B2B construction materials & multi-portal logistics platform | `Next.js` · `Node.js` · `TypeScript` · `PostgreSQL` | [Live](https://bunkerstroy.uz) · [Code](https://github.com/thefarrukhdev/bunkerstroy) |
+| **Kokand University Portal** | Academic analytics and graduate vacancy hub | `React` · `TypeScript` · `Tailwind CSS` · `REST APIs` | [Live](https://kualumni.uz) · [Code](https://github.com/thefarrukhdev/kokand_university) |
+| **agychat** | Lightweight CLI session manager for Google Antigravity | `Python` · `CLI Tooling` · `Rich` | [Code](https://github.com/thefarrukhdev/agychat) |
 
 </div>
 
@@ -125,16 +125,16 @@ is why I'm comfortable stepping past the browser into **NestJS, PostgreSQL and P
 
 <br/>
 
-<a href="https://www.farrukh-dev.me"><img src="assets/social-portfolio.svg" height="52" alt="Portfolio · farrukh-dev.me" /></a>
+<a href="https://thefarrukhdev.vercel.app"><img src="assets/social-portfolio.svg" height="52" alt="Portfolio · thefarrukhdev.vercel.app" /></a>
 <a href="https://t.me/Farrukh_Djumayev"><img src="assets/social-telegram.svg" height="52" alt="Telegram · @Farrukh_Djumayev" /></a>
 <a href="https://x.com/FarrukhDjumayev"><img src="assets/social-x.svg" height="52" alt="X · @FarrukhDjumayev" /></a>
 
 <a href="https://instagram.com/farrukh.djumayev"><img src="assets/social-instagram.svg" height="52" alt="Instagram · farrukh.djumayev" /></a>
-<a href="mailto:farrukh.front.dev@gmail.com"><img src="assets/social-email.svg" height="52" alt="Email · farrukh.front.dev@gmail.com" /></a>
+<a href="mailto:the.farrukh.dev@gmail.com"><img src="assets/social-email.svg" height="52" alt="Email · the.farrukh.dev@gmail.com" /></a>
 
 <br/><br/>
 
-<sub>Built in Tashkent · shipped with React, TypeScript and too much coffee.</sub>
+<sub>Built in Tashkent · shipped with React, Next.js & TypeScript.</sub>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,45:8b5cf6,100:38bdf8&amp;height=130&amp;section=footer&amp;v=2" alt="" />
 
