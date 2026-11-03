@@ -3,7 +3,7 @@
 
 <img width="100%" src="assets/header.svg" alt="Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript" />
 
-<img src="assets/editor.svg" width="100%" alt="farrukh.ts - TypeScript Developer Configuration" />
+<img src="assets/hero.svg" width="100%" alt="Farrukh Jumayev - Frontend Engineer Overview" />
 
 <br/>
 
