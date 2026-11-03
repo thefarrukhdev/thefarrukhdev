@@ -496,7 +496,115 @@ def terminal():
     write(out, s + "</svg>\n")
 
 
+def build_header():
+    W, H = 860, 210
+    s = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript">\n'
+        f'<title>Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript</title>\n'
+        f'<defs>\n'
+        f'  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">\n'
+        f'    <stop offset="0%" stop-color="#0d1117" />\n'
+        f'    <stop offset="45%" stop-color="#0369a1" />\n'
+        f'    <stop offset="100%" stop-color="#8b5cf6" />\n'
+        f'  </linearGradient>\n'
+        f'  <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">\n'
+        f'    <stop offset="0%" stop-color="#ffffff" />\n'
+        f'    <stop offset="100%" stop-color="#bae6fd" />\n'
+        f'  </linearGradient>\n'
+        f'</defs>\n'
+        f'<!-- Waving Background Shape -->\n'
+        f'<path d="M 0,0 L 860,0 L 860,165 C 720,195 560,140 430,175 C 300,210 140,160 0,185 Z" fill="url(#grad)" />\n'
+        f'<path d="M 0,185 C 140,160 300,210 430,175 C 560,140 720,195 860,165 L 860,175 C 720,205 560,150 430,185 C 300,220 140,170 0,195 Z" fill="{CYAN}" fill-opacity="0.25" />\n'
+        f'<g text-anchor="middle">\n'
+        f'  <text x="430" y="85" font-family="{SANS}" font-size="52" font-weight="800" fill="url(#textGrad)" letter-spacing="1">Farrukh Djumayev</text>\n'
+        f'  <text x="430" y="125" font-family="{MONO}" font-size="18" font-weight="600" fill="#bae6fd" letter-spacing="0.5">Frontend Engineer — React, Next.js &amp; TypeScript</text>\n'
+        f'</g>\n'
+        f'</svg>\n'
+    )
+    write("header.svg", s)
+
+
+def build_editor():
+    W, H = 860, 370
+    wx, wy, ww, wh = 14, 14, 832, 342
+    s = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="farrukh.ts - TypeScript Developer Configuration">\n'
+        f'<title>farrukh.ts - Frontend Engineer Profile</title>\n'
+        f'<defs>\n'
+        f'  <linearGradient id="ebd" x1="0" y1="0" x2="1" y2="1">\n'
+        f'    <stop offset="0" stop-color="{CYAN}"/>\n'
+        f'    <stop offset="0.55" stop-color="{VIOLET}"/>\n'
+        f'    <stop offset="1" stop-color="{EMERALD}"/>\n'
+        f'  </linearGradient>\n'
+        f'  <clipPath id="ewin"><rect x="{wx}" y="{wy}" width="{ww}" height="{wh}" rx="14"/></clipPath>\n'
+        f'  <filter id="eglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="24"/></filter>\n'
+        f'</defs>\n'
+        f'<circle cx="160" cy="310" r="90" fill="{VIOLET}" opacity="0.25" filter="url(#eglow)"/>\n'
+        f'<circle cx="700" cy="60" r="90" fill="{CYAN}" opacity="0.22" filter="url(#eglow)"/>\n'
+        f'<rect x="{wx}" y="{wy}" width="{ww}" height="{wh}" rx="14" fill="{BG}"/>\n'
+        f'<rect x="{wx}" y="{wy}" width="{ww}" height="{wh}" rx="14" fill="none" stroke="url(#ebd)" stroke-opacity="0.65" stroke-width="1.5"/>\n'
+        f'<g clip-path="url(#ewin)">\n'
+        f'  <rect x="{wx}" y="{wy}" width="{ww}" height="42" fill="{PANEL}"/>\n'
+        f'  <line x1="{wx}" y1="{wy+42}" x2="{wx+ww}" y2="{wy+42}" stroke="{BORDER}"/>\n'
+        f'  <circle cx="38" cy="{wy+21}" r="6" fill="#ff5f56"/>\n'
+        f'  <circle cx="58" cy="{wy+21}" r="6" fill="#ffbd2e"/>\n'
+        f'  <circle cx="78" cy="{wy+21}" r="6" fill="#27c93f"/>\n'
+        f'  <rect x="110" y="{wy+6}" width="142" height="36" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>\n'
+        f'  <rect x="111" y="{wy+6}" width="140" height="2" fill="{CYAN}"/>\n'
+        f'  <text x="126" y="{wy+24}" font-family="{MONO}" font-size="12" font-weight="700" fill="#3178c6">TS</text>\n'
+        f'  <text x="150" y="{wy+24}" font-family="{MONO}" font-size="12.5" font-weight="600" fill="{TEXT}">farrukh.ts</text>\n'
+        f'  <text x="272" y="{wy+24}" font-family="{MONO}" font-size="12" font-weight="700" fill="{CYAN}">⚛</text>\n'
+        f'  <text x="290" y="{wy+24}" font-family="{MONO}" font-size="12" fill="{MUTED}">safaar.tsx</text>\n'
+        f'  <text x="388" y="{wy+24}" font-family="{MONO}" font-size="12" font-weight="700" fill="{CYAN}">⚛</text>\n'
+        f'  <text x="406" y="{wy+24}" font-family="{MONO}" font-size="12" fill="{MUTED}">bunkerstroy.tsx</text>\n'
+        f'  <text x="{wx+ww-24}" y="{wy+25}" text-anchor="end" font-family="{MONO}" font-size="11.5" fill="{MUTED}">TypeScript 5.8 · React 19 · Next.js 15</text>\n'
+        f'</g>\n'
+        f'<g font-family="{MONO}" font-size="13" xml:space="preserve">\n'
+        f'  <text x="42" y="90" fill="{MUTED}">01</text><text x="80" y="90"><tspan fill="#ff7b72">import</tspan> <tspan fill="{TEXT}">type</tspan> <tspan fill="{TEXT}">&#123;</tspan> <tspan fill="#79c0ff">FrontendEngineer</tspan> <tspan fill="{TEXT}">&#125;</tspan> <tspan fill="#ff7b72">from</tspan> <tspan fill="{EMERALD}">\'@skills/core\'</tspan><tspan fill="{TEXT}">;</tspan></text>\n'
+        f'  <text x="42" y="116" fill="{MUTED}">02</text>\n'
+        f'  <text x="42" y="142" fill="{MUTED}">03</text><text x="80" y="142"><tspan fill="#ff7b72">export</tspan> <tspan fill="#ff7b72">const</tspan> <tspan fill="#79c0ff">farrukh</tspan><tspan fill="{TEXT}">:</tspan> <tspan fill="{CYAN}">FrontendEngineer</tspan> <tspan fill="{TEXT}">= &#123;</tspan></text>\n'
+        f'  <text x="42" y="168" fill="{MUTED}">04</text><text x="100" y="168"><tspan fill="{TEXT}">name:</tspan> <tspan fill="{EMERALD}">\'Farrukh Jumayev\'</tspan><tspan fill="{TEXT}">,</tspan></text>\n'
+        f'  <text x="42" y="194" fill="{MUTED}">05</text><text x="100" y="194"><tspan fill="{TEXT}">focus:</tspan> <tspan fill="{EMERALD}">\'High-performance interfaces with React, Next.js &amp; TypeScript\'</tspan><tspan fill="{TEXT}">,</tspan></text>\n'
+        f'  <text x="42" y="220" fill="{MUTED}">06</text><text x="100" y="220"><tspan fill="{TEXT}">coreStack:</tspan> <tspan fill="{TEXT}">[</tspan><tspan fill="{EMERALD}">\'React 19\'</tspan><tspan fill="{TEXT}">, </tspan><tspan fill="{EMERALD}">\'Next.js 15\'</tspan><tspan fill="{TEXT}">, </tspan><tspan fill="{EMERALD}">\'TypeScript\'</tspan><tspan fill="{TEXT}">, </tspan><tspan fill="{EMERALD}">\'Tailwind CSS\'</tspan><tspan fill="{TEXT}">],</tspan></text>\n'
+        f'  <text x="42" y="246" fill="{MUTED}">07</text><text x="100" y="246"><tspan fill="{TEXT}">foundation:</tspan> <tspan fill="{EMERALD}">\'School 21 / 42 Network (C, Memory Management &amp; Systems)\'</tspan><tspan fill="{TEXT}">,</tspan></text>\n'
+        f'  <text x="42" y="272" fill="{MUTED}">08</text><text x="100" y="272"><tspan fill="{TEXT}">principles:</tspan> <tspan fill="{TEXT}">[</tspan><tspan fill="{EMERALD}">\'Clean Components\'</tspan><tspan fill="{TEXT}">, </tspan><tspan fill="{EMERALD}">\'Type-Safe by Default\'</tspan><tspan fill="{TEXT}">, </tspan><tspan fill="{EMERALD}">\'Core Web Vitals 95+\'</tspan><tspan fill="{TEXT}">],</tspan></text>\n'
+        f'  <text x="42" y="298" fill="{MUTED}">09</text><text x="100" y="298"><tspan fill="{TEXT}">status:</tspan> <tspan fill="{EMERALD}">\'Open to exciting engineering challenges\'</tspan><tspan fill="{TEXT}">,</tspan></text>\n'
+        f'  <text x="42" y="324" fill="{MUTED}">10</text><text x="80" y="324"><tspan fill="{TEXT}">&#125;;</tspan></text>\n'
+        f'</g>\n'
+        f'<g clip-path="url(#ewin)">\n'
+        f'  <rect x="{wx}" y="{wy+wh-28}" width="{ww}" height="28" fill="{PANEL}"/>\n'
+        f'  <line x1="{wx}" y1="{wy+wh-28}" x2="{wx+ww}" y2="{wy+wh-28}" stroke="{BORDER}"/>\n'
+        f'  <circle cx="{wx+22}" cy="{wy+wh-14}" r="3.5" fill="{EMERALD}"/>\n'
+        f'  <text x="{wx+34}" y="{wy+wh-10}" font-family="{MONO}" font-size="11" fill="{MUTED}">main*  ·  0 errors, 0 warnings  ·  TypeScript</text>\n'
+        f'  <text x="{wx+ww-22}" y="{wy+wh-10}" text-anchor="end" font-family="{MONO}" font-size="11" fill="{CYAN}">thefarrukhdev.vercel.app</text>\n'
+        f'</g>\n'
+        f'</svg>\n'
+    )
+    write("editor.svg", s)
+
+
+def build_footer():
+    W, H = 860, 120
+    s = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-hidden="true">\n'
+        f'<defs>\n'
+        f'  <linearGradient id="fgrad" x1="0%" y1="0%" x2="100%" y2="0%">\n'
+        f'    <stop offset="0%" stop-color="#0d1117" />\n'
+        f'    <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.8" />\n'
+        f'    <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.9" />\n'
+        f'  </linearGradient>\n'
+        f'</defs>\n'
+        f'<path d="M 0,40 C 200,80 400,10 600,60 C 730,90 800,40 860,50 L 860,120 L 0,120 Z" fill="url(#fgrad)" fill-opacity="0.35" />\n'
+        f'<path d="M 0,60 C 220,100 420,30 620,80 C 750,110 810,60 860,70 L 860,120 L 0,120 Z" fill="#0369a1" fill-opacity="0.2" />\n'
+        f'</svg>\n'
+    )
+    write("footer.svg", s)
+
+
 if __name__ == "__main__":
+    build_header()
+    build_editor()
+    build_footer()
     terminal()
     if not STATIC_PREVIEW:
         build_cards()

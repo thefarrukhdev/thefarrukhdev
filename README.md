@@ -1,9 +1,9 @@
 <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,45:0369a1,100:8b5cf6&amp;height=210&amp;section=header&amp;text=Farrukh%20Djumayev&amp;fontSize=56&amp;fontColor=ffffff&amp;fontAlignY=38&amp;animation=fadeIn&amp;desc=Frontend%20Engineer%20%E2%80%94%20React%2C%20Next.js%20%26%20TypeScript&amp;descSize=20&amp;descAlignY=60&amp;descColor=bae6fd&amp;v=2" alt="Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript" />
+<img width="100%" src="assets/header.svg" alt="Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript" />
 
-<img src="assets/terminal.svg" width="100%" alt="Terminal: farrukh.currentFocus() → Architecting Scalable Web & Telegram Mini Apps · farrukh.education() → School 21 (42 Network) — Systems & Algorithms · farrukh.status() → Available for exciting engineering challenges" />
+<img src="assets/editor.svg" width="100%" alt="farrukh.ts - TypeScript Developer Configuration" />
 
 <br/>
 
@@ -136,6 +136,6 @@ Backed by strong computer science and systems foundations (C, algorithms, memory
 
 <sub>Built in Tashkent · shipped with React, Next.js & TypeScript.</sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,45:8b5cf6,100:38bdf8&amp;height=130&amp;section=footer&amp;v=2" alt="" />
+<img width="100%" src="assets/footer.svg" alt="" />
 
 </div>
