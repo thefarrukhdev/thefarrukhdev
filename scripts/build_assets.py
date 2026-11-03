@@ -75,13 +75,12 @@ PILL_COLORS = {
 
 
 def pill(x, y, label, color, h=24):
-    w = tw(label, 11, bold=True) + 24
+    w = tw(label, 11, bold=True) + 20
     return (
         f'<g transform="translate({x:.1f},{y})">'
         f'<rect width="{w:.1f}" height="{h}" rx="{h/2}" fill="{color}" fill-opacity="0.10" '
         f'stroke="{color}" stroke-opacity="0.45"/>'
-        f'<circle cx="11" cy="{h/2}" r="2.5" fill="{color}"/>'
-        f'<text x="19" y="{h/2+4}" font-family="{SANS}" font-size="11" font-weight="600" fill="{TEXT}">{esc(label)}</text>'
+        f'<text x="{w/2:.1f}" y="{h/2+4}" text-anchor="middle" font-family="{SANS}" font-size="11" font-weight="600" fill="{TEXT}">{esc(label)}</text>'
         f"</g>",
         w,
     )
@@ -91,7 +90,7 @@ def flow_pills(tags, x0, y0, max_w, gap=8, row_h=24, row_gap=8):
     """Lay pills out in wrapping rows. Returns (svg, total_height)."""
     out, x, y = [], x0, y0
     for t in tags:
-        w = tw(t, 11, bold=True) + 24
+        w = tw(t, 11, bold=True) + 20
         if x + w > x0 + max_w:
             x, y = x0, y + row_h + row_gap
         s, w = pill(x, y, t, PILL_COLORS.get(t, CYAN), row_h)
@@ -165,13 +164,12 @@ WIDE_PROJECT = dict(
 
 
 def status_pill(x_right, y, label, color):
-    w = len(label) * (10 * 0.64 + 0.8) + 36
+    w = len(label) * (10 * 0.64 + 0.8) + 24
     x = x_right - w
     return (
         f'<g transform="translate({x:.1f},{y})">'
         f'<rect width="{w:.1f}" height="22" rx="11" fill="{color}" fill-opacity="0.12" stroke="{color}" stroke-opacity="0.5"/>'
-        f'<circle cx="12" cy="11" r="3" fill="{color}"/>'
-        f'<text x="22" y="14.7" font-family="{SANS}" font-size="10" font-weight="700" letter-spacing="0.8" fill="{color}">{esc(label.upper())}</text>'
+        f'<text x="{w/2:.1f}" y="14.7" text-anchor="middle" font-family="{SANS}" font-size="10" font-weight="700" letter-spacing="0.8" fill="{color}">{esc(label.upper())}</text>'
         f"</g>"
     )
 
@@ -252,12 +250,11 @@ def build_sections():
 
 # ───────────────────────────── group labels + pill clouds ─────────────────────────────
 def label(file, text, color):
-    w = int(len(text) * (11 * 0.70 + 1.2) + 48)
+    w = int(len(text) * (11 * 0.70 + 1.2) + 32)
     h = 30
     s = svg_open(w, h, text)
     s += f'<rect x="0.75" y="0.75" width="{w-1.5}" height="{h-1.5}" rx="15" fill="{BG}" stroke="{color}" stroke-opacity="0.5" stroke-width="1.5"/>'
-    s += f'<circle cx="16" cy="{h/2}" r="3.5" fill="{color}"/>'
-    s += f'<text x="28" y="{h/2+4}" font-family="{MONO}" font-size="11" font-weight="700" letter-spacing="1" fill="{TEXT}">{esc(text)}</text>'
+    s += f'<text x="{w/2:.1f}" y="{h/2+4}" text-anchor="middle" font-family="{MONO}" font-size="11" font-weight="700" letter-spacing="1" fill="{TEXT}">{esc(text)}</text>'
     write(file, s + "</svg>\n")
 
 
@@ -277,7 +274,7 @@ def micro_pills():
     items = [(t, col) for col, ts in groups for t in ts]
     rows, cur, cur_w = [], [], 0
     for t, col in items:
-        w = tw(t, 12, bold=True) + 36
+        w = tw(t, 12, bold=True) + 24
         add = w + (GAP if cur else 0)
         if cur and cur_w + add > MAXW:
             rows.append(cur)
@@ -296,8 +293,7 @@ def micro_pills():
             s += (
                 f'<g transform="translate({x:.1f},{y})">'
                 f'<rect x="0.75" y="0.75" width="{w-1.5:.1f}" height="{PH-1.5}" rx="{(PH-1.5)/2}" fill="{BG}" stroke="{col}" stroke-opacity="0.55" stroke-width="1.5"/>'
-                f'<circle cx="15" cy="{PH/2}" r="3" fill="{col}"/>'
-                f'<text x="25" y="{PH/2+4.2}" font-family="{SANS}" font-size="12" font-weight="600" fill="{TEXT}">{esc(t)}</text></g>'
+                f'<text x="{w/2:.1f}" y="{PH/2+4.2}" text-anchor="middle" font-family="{SANS}" font-size="12" font-weight="600" fill="{TEXT}">{esc(t)}</text></g>'
             )
             x += w + GAP
         y += PH + 12
@@ -305,21 +301,12 @@ def micro_pills():
 
 
 # ───────────────────────────── hero chips + socials ─────────────────────────────
-def chip(file, text, color, dot_pulse=False):
+def chip(file, text, color):
     h = 34
-    w = int(tw(text, 12.5, bold=True) + 46)
+    w = int(tw(text, 12.5, bold=True) + 32)
     s = svg_open(w, h, text)
     s += f'<rect x="0.75" y="0.75" width="{w-1.5}" height="{h-1.5}" rx="{(h-1.5)/2}" fill="{BG}" stroke="{color}" stroke-opacity="0.55" stroke-width="1.5"/>'
-    if dot_pulse:
-        s += (
-            f'<circle cx="19" cy="{h/2}" r="4" fill="{color}"/>'
-            f'<circle cx="19" cy="{h/2}" r="4" fill="none" stroke="{color}" stroke-width="1.5">'
-            f'<animate attributeName="r" values="4;10" dur="1.8s" repeatCount="indefinite"/>'
-            f'<animate attributeName="opacity" values="0.8;0" dur="1.8s" repeatCount="indefinite"/></circle>'
-        )
-    else:
-        s += f'<circle cx="19" cy="{h/2}" r="4" fill="{color}"/>'
-    s += f'<text x="32" y="{h/2+4.5}" font-family="{SANS}" font-size="12.5" font-weight="600" fill="{TEXT}">{esc(text)}</text>'
+    s += f'<text x="{w/2:.1f}" y="{h/2+4.5}" text-anchor="middle" font-family="{SANS}" font-size="12.5" font-weight="600" fill="{TEXT}">{esc(text)}</text>'
     write(file, s + "</svg>\n")
 
 
@@ -327,7 +314,7 @@ def build_chips():
     chip("chip-location.svg", "Tashkent, Uzbekistan", CYAN)
     chip("chip-school.svg", "School 21 · 42 Network", VIOLET)
     chip("chip-portfolio.svg", "thefarrukhdev.vercel.app", "#f59e0b")
-    chip("chip-status.svg", "Open to new challenges", EMERALD, dot_pulse=True)
+    chip("chip-status.svg", "Open to new challenges", EMERALD)
 
 
 SOCIALS = [
@@ -562,18 +549,14 @@ def build_hero():
         f'  <!-- Top Hero Header Bar -->\n'
         f'  <g transform="translate(24, 22)">\n'
         f'    <!-- Small Category Pill -->\n'
-        f'    <rect x="0" y="0" width="168" height="26" rx="13" fill="{CYAN}" fill-opacity="0.10" stroke="{CYAN}" stroke-opacity="0.4"/>\n'
-        f'    <circle cx="12" cy="13" r="3.5" fill="{CYAN}"/>\n'
-        f'    <text x="24" y="17" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{CYAN}" letter-spacing="1">FRONTEND ENGINEER</text>\n\n'
+        f'    <rect x="0" y="0" width="154" height="26" rx="13" fill="{CYAN}" fill-opacity="0.10" stroke="{CYAN}" stroke-opacity="0.4"/>\n'
+        f'    <text x="77" y="17" text-anchor="middle" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{CYAN}" letter-spacing="1">FRONTEND ENGINEER</text>\n\n'
         f'    <!-- Main Title Line -->\n'
         f'    <text x="0" y="58" font-family="{SANS}" font-size="22" font-weight="800" fill="url(#headerGrad)">Architecting high-performance web products &amp; modern interfaces.</text>\n\n'
-        f'    <!-- Live Status Pill on the Right -->\n'
-        f'    <g transform="translate({W - 270}, 0)">\n'
-        f'      <rect x="0" y="0" width="220" height="26" rx="13" fill="{EMERALD}" fill-opacity="0.10" stroke="{EMERALD}" stroke-opacity="0.4"/>\n'
-        f'      <circle cx="14" cy="13" r="4" fill="{EMERALD}">\n'
-        f'        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>\n'
-        f'      </circle>\n'
-        f'      <text x="26" y="17" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{EMERALD}" letter-spacing="0.5">OPEN TO OPPORTUNITIES</text>\n'
+        f'    <!-- Status Pill on the Right -->\n'
+        f'    <g transform="translate({W - 224}, 0)">\n'
+        f'      <rect x="0" y="0" width="200" height="26" rx="13" fill="{EMERALD}" fill-opacity="0.10" stroke="{EMERALD}" stroke-opacity="0.4"/>\n'
+        f'      <text x="100" y="17" text-anchor="middle" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{EMERALD}" letter-spacing="0.5">OPEN TO OPPORTUNITIES</text>\n'
         f'    </g>\n'
         f'  </g>\n\n'
         f'  <!-- 3 Bento Columns -->\n'
