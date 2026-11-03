@@ -96,7 +96,7 @@ Backed by strong computer science and systems foundations (C, algorithms, memory
 
 <br/>
 
-<a href="https://github.com/thefarrukhdev/safaar"><img width="49%" src="assets/card-safaar.svg" alt="Safaar Platform · Hotel & Travel Booking Monorepo · Next.js, NestJS, TypeScript, PostgreSQL, Tailwind CSS" /></a>
+<a href="https://safaar.uz"><img width="49%" src="assets/card-safaar.svg" alt="Safaar Platform · Hotel & Travel Booking Monorepo · Next.js, NestJS, TypeScript, PostgreSQL, Tailwind CSS" /></a>
 <a href="https://careerhub.21-school.uz"><img width="49%" src="assets/card-careerhub.svg" alt="School 21 CareerHub · Talent Marketplace & Student Career Platform · Next.js, TypeScript, Tailwind CSS, ShadCN UI" /></a>
 
 <a href="https://bunkerstroy.uz"><img width="49%" src="assets/card-bunkerstroy.svg" alt="BunkerStroy · B2B Building Materials Marketplace · Next.js, TypeScript, Tailwind CSS, PostgreSQL" /></a>
@@ -109,7 +109,7 @@ Backed by strong computer science and systems foundations (C, algorithms, memory
 | Project | Description | Stack | Links |
 | :--- | :--- | :--- | :--- |
 | **School 21 CareerHub** | Institutional talent marketplace connecting 500+ tech engineers with employers | `Next.js 15` · `TypeScript` · `Tailwind CSS` · `shadcn/ui` | [Live](https://careerhub.21-school.uz) |
-| **Safaar Platform** | Hotel accommodation & reservation monorepo | `Next.js 15` · `NestJS` · `TypeScript` · `PostgreSQL` | [Demo](https://safaar.uz) · [Code](https://github.com/thefarrukhdev/safaar) |
+| **Safaar Platform** | Hotel accommodation & reservation monorepo | `Next.js 15` · `NestJS` · `TypeScript` · `PostgreSQL` | [Live](https://safaar.uz) · [Code](https://github.com/thefarrukhdev/safaar) |
 | **BunkerStroy Marketplace** | B2B construction materials & multi-portal logistics platform | `Next.js` · `Node.js` · `TypeScript` · `PostgreSQL` | [Live](https://bunkerstroy.uz) · [Code](https://github.com/thefarrukhdev/bunkerstroy) |
 | **Kokand University Portal** | Academic analytics and graduate vacancy hub | `React` · `TypeScript` · `Tailwind CSS` · `REST APIs` | [Live](https://kualumni.uz) · [Code](https://github.com/thefarrukhdev/kokand_university) |
 | **agychat** | Lightweight CLI session manager for Google Antigravity | `Python` · `CLI Tooling` · `Rich` | [Code](https://github.com/thefarrukhdev/agychat) |

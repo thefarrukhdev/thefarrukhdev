@@ -119,11 +119,11 @@ PROJECTS = [
     dict(
         file="card-safaar.svg", icon="pin", accent=(CYAN, "#3b82f6"),
         title="Safaar Platform", sub="Hotel & Travel Booking Monorepo",
-        status="In Development", status_color=CYAN,
+        status="Live", status_color=EMERALD,
         desc=["Scalable full-stack monorepo for hotel discovery,",
               "instant booking workflows, and host management."],
         tags=["Next.js", "NestJS", "TypeScript", "PostgreSQL", "Tailwind CSS"],
-        link="github.com/thefarrukhdev/safaar",
+        link="safaar.uz",
     ),
     dict(
         file="card-careerhub.svg", icon="briefcase", accent=(VIOLET, CYAN),
