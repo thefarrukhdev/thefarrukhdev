@@ -1,9 +1,9 @@
 <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
 <div align="center">
 
-<img width="100%" src="assets/header.svg" alt="Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript" />
+<img width="100%" src="assets/header.svg" alt="Farrukh Djumayev - Full Stack Software Engineer — TypeScript, Next.js &amp; PostgreSQL" />
 
-<img src="assets/hero.svg" width="100%" alt="Farrukh Jumayev - Frontend Engineer Overview" />
+<img src="assets/hero.svg" width="100%" alt="Farrukh Jumayev - Full Stack Software Engineer Overview" />
 
 <br/>
 
@@ -23,10 +23,10 @@
 
 <br/>
 
-### Frontend Engineer — React · Next.js · TypeScript
+### Full Stack Software Engineer — TypeScript · Next.js · Node.js · PostgreSQL
 
-I build responsive, accessible, and high-performance web applications with clean component architecture and strict type safety.<br/>
-Experienced in shipping production platforms including institutional career portals, booking engines, and B2B marketplaces.<br/>
+I architect resilient backend services, high-performance web applications, and scalable distributed architectures with clean modular design and strict end-to-end type safety.<br/>
+Experienced in shipping production platforms including institutional career portals, booking engines, and B2B marketplaces from database schema to responsive UI.<br/>
 Backed by strong computer science and systems foundations (C, algorithms, memory management, Unix) honed through **School 21 (42 Network)**.
 
 ⚡ High Performance &nbsp;·&nbsp; 🧩 Scalable Architecture &nbsp;·&nbsp; 🛡️ Strict Type-Safety &nbsp;·&nbsp; 🎯 Core Web Vitals (95+)
@@ -134,7 +134,7 @@ Backed by strong computer science and systems foundations (C, algorithms, memory
 
 <br/><br/>
 
-<sub>Built in Tashkent · shipped with React, Next.js & TypeScript.</sub>
+<sub>Built in Tashkent · shipped with Next.js, Node.js &amp; TypeScript.</sub>
 
 <img width="100%" src="assets/footer.svg" alt="" />
 

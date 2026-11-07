@@ -465,9 +465,9 @@ def terminal():
           f'<tspan fill="{EMERALD}">farrukh@tashkent</tspan> <tspan fill="{CYAN}">~/portfolio</tspan> <tspan fill="{MUTED}">%</tspan> <tspan fill="{TEXT}">whoami</tspan></text>\n')
     s += (f'<text x="{x0}" y="120" font-family="{MONO}" font-size="{FS+1}" font-weight="700">'
           f'<tspan fill="url(#nm)">Farrukh Djumayev</tspan><tspan fill="{MUTED}" font-weight="400"> — </tspan>'
-          f'<tspan fill="{TEXT}">Frontend Engineer — React, Next.js &amp; TypeScript</tspan></text>\n')
+          f'<tspan fill="{TEXT}">Full Stack Software Engineer — TypeScript, Next.js &amp; PostgreSQL</tspan></text>\n')
     s += (f'<text x="{x0}" y="152" font-family="{MONO}" font-size="12.5" fill="{MUTED}">'
-          f'# React · Next.js · TypeScript · Scalable Component Architecture</text>\n')
+          f'# Next.js 15 · Node.js · TypeScript · PostgreSQL · Resilient APIs</text>\n')
     s += (f'<text x="{x0}" y="172" font-family="{MONO}" font-size="12.5" fill="{MUTED}">'
           f'# Systems engineering @ School 21 / 42 Network — C/C++ · Algorithms · System Programming</text>\n')
     s += f'<line x1="{x0}" y1="186" x2="{wx+ww-26}" y2="186" stroke="{BORDER}" stroke-dasharray="3 5"/>\n'
@@ -486,8 +486,8 @@ def terminal():
 def build_header():
     W, H = 860, 210
     s = (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript">\n'
-        f'<title>Farrukh Djumayev - Frontend Engineer — React, Next.js &amp; TypeScript</title>\n'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Farrukh Djumayev - Full Stack Software Engineer — TypeScript, Next.js &amp; PostgreSQL">\n'
+        f'<title>Farrukh Djumayev - Full Stack Software Engineer — TypeScript, Next.js &amp; PostgreSQL</title>\n'
         f'<defs>\n'
         f'  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">\n'
         f'    <stop offset="0%" stop-color="#0d1117" />\n'
@@ -504,7 +504,7 @@ def build_header():
         f'<path d="M 0,185 C 140,160 300,210 430,175 C 560,140 720,195 860,165 L 860,175 C 720,205 560,150 430,185 C 300,220 140,170 0,195 Z" fill="{CYAN}" fill-opacity="0.25" />\n'
         f'<g text-anchor="middle">\n'
         f'  <text x="430" y="85" font-family="{SANS}" font-size="52" font-weight="800" fill="url(#textGrad)" letter-spacing="1">Farrukh Djumayev</text>\n'
-        f'  <text x="430" y="125" font-family="{MONO}" font-size="18" font-weight="600" fill="#bae6fd" letter-spacing="0.5">Frontend Engineer — React, Next.js &amp; TypeScript</text>\n'
+        f'  <text x="430" y="125" font-family="{MONO}" font-size="18" font-weight="600" fill="#bae6fd" letter-spacing="0.5">Full Stack Software Engineer — TypeScript, Next.js &amp; PostgreSQL</text>\n'
         f'</g>\n'
         f'</svg>\n'
     )
@@ -519,8 +519,8 @@ def build_hero():
     y_bottom = 274
 
     s = (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Farrukh Jumayev - Engineering Overview">\n'
-        f'  <title>Farrukh Jumayev - Frontend Engineer Overview</title>\n'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Farrukh Jumayev - Full Stack Engineering Overview">\n'
+        f'  <title>Farrukh Jumayev - Full Stack Software Engineer Overview</title>\n'
         f'  <defs>\n'
         f'    <linearGradient id="mainBorder" x1="0" y1="0" x2="1" y2="1">\n'
         f'      <stop offset="0" stop-color="{CYAN}" stop-opacity="0.8"/>\n'
@@ -549,10 +549,10 @@ def build_hero():
         f'  <!-- Top Hero Header Bar -->\n'
         f'  <g transform="translate(24, 22)">\n'
         f'    <!-- Small Category Pill -->\n'
-        f'    <rect x="0" y="0" width="154" height="26" rx="13" fill="{CYAN}" fill-opacity="0.10" stroke="{CYAN}" stroke-opacity="0.4"/>\n'
-        f'    <text x="77" y="17" text-anchor="middle" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{CYAN}" letter-spacing="1">FRONTEND ENGINEER</text>\n\n'
+        f'    <rect x="0" y="0" width="170" height="26" rx="13" fill="{CYAN}" fill-opacity="0.10" stroke="{CYAN}" stroke-opacity="0.4"/>\n'
+        f'    <text x="85" y="17" text-anchor="middle" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{CYAN}" letter-spacing="1">FULL STACK ENGINEER</text>\n\n'
         f'    <!-- Main Title Line -->\n'
-        f'    <text x="0" y="58" font-family="{SANS}" font-size="22" font-weight="800" fill="url(#headerGrad)">Architecting high-performance web products &amp; modern interfaces.</text>\n\n'
+        f'    <text x="0" y="58" font-family="{SANS}" font-size="22" font-weight="800" fill="url(#headerGrad)">Architecting resilient backend systems, scalable APIs &amp; modern UIs.</text>\n\n'
         f'    <!-- Status Pill on the Right -->\n'
         f'    <g transform="translate({W - 224}, 0)">\n'
         f'      <rect x="0" y="0" width="200" height="26" rx="13" fill="{EMERALD}" fill-opacity="0.10" stroke="{EMERALD}" stroke-opacity="0.4"/>\n'
@@ -565,17 +565,17 @@ def build_hero():
         f'    <rect width="{card_w}" height="{card_h}" rx="12" fill="#131820" stroke="{BORDER}" stroke-width="1"/>\n'
         f'    <rect width="{card_w}" height="{card_h}" rx="12" fill="url(#cardGlow1)"/>\n'
         f'    <rect x="0" y="0" width="{card_w}" height="3" rx="1.5" fill="{CYAN}"/>\n'
-        f'    <text x="18" y="28" font-family="{MONO}" font-size="11" font-weight="700" fill="{CYAN}">// 01 · SPECIALIZATION</text>\n'
-        f'    <text x="18" y="52" font-family="{SANS}" font-size="16" font-weight="700" fill="#ffffff">React &amp; Next.js 15</text>\n'
-        f'    <text x="18" y="74" font-family="{SANS}" font-size="12" fill="{MUTED}">App Router, Server Actions, strict</text>\n'
-        f'    <text x="18" y="92" font-family="{SANS}" font-size="12" fill="{MUTED}">TypeScript &amp; scalable state flows.</text>\n'
+        f'    <text x="18" y="28" font-family="{MONO}" font-size="11" font-weight="700" fill="{CYAN}">// 01 · FULL STACK</text>\n'
+        f'    <text x="18" y="52" font-family="{SANS}" font-size="16" font-weight="700" fill="#ffffff">Next.js 15 &amp; Node/Nest</text>\n'
+        f'    <text x="18" y="74" font-family="{SANS}" font-size="12" fill="{MUTED}">PostgreSQL, Prisma, Redis caching,</text>\n'
+        f'    <text x="18" y="92" font-family="{SANS}" font-size="12" fill="{MUTED}">REST APIs &amp; scalable web systems.</text>\n'
         f'    <g transform="translate(18, 114)">\n'
         f'      <rect width="66" height="22" rx="6" fill="{CYAN}" fill-opacity="0.12" stroke="{CYAN}" stroke-opacity="0.3"/>\n'
         f'      <text x="33" y="15" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="600" fill="{TEXT}">Next.js 15</text>\n'
         f'      <rect x="74" y="0" width="60" height="22" rx="6" fill="{CYAN}" fill-opacity="0.12" stroke="{CYAN}" stroke-opacity="0.3"/>\n'
-        f'      <text x="104" y="15" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="600" fill="{TEXT}">React 19</text>\n'
+        f'      <text x="104" y="15" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="600" fill="{TEXT}">Node/Nest</text>\n'
         f'      <rect x="142" y="0" width="76" height="22" rx="6" fill="{CYAN}" fill-opacity="0.12" stroke="{CYAN}" stroke-opacity="0.3"/>\n'
-        f'      <text x="180" y="15" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="600" fill="{TEXT}">TypeScript</text>\n'
+        f'      <text x="180" y="15" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="600" fill="{TEXT}">PostgreSQL</text>\n'
         f'    </g>\n'
         f'  </g>\n\n'
         f'  <!-- Box 2: CS Foundation -->\n'
